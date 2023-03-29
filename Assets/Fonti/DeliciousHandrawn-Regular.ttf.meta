@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 96c34ae178eac994c85796892e8abe93
+timeCreated: 1680067177
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Delicious Handrawn
+  fontNames:
+  - Delicious Handrawn
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
