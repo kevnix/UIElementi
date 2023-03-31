@@ -16,7 +16,7 @@ public class VardaParadisana : MonoBehaviour {
 	{
 		x = Random.Range(0, options.Length);
 		text = inputfield.GetComponent<Text>().text;
-		outputfield.GetComponent<Text>().text = options[x]+text.ToUpper()+"!";
+		outputfield.GetComponent<Text>().text = options[x]+" "+text.ToUpper()+"!";
 	}
 	/*int kadrs = 0;
 	// Use this for initialization
