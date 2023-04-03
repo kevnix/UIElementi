@@ -5,12 +5,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class ShowImage : MonoBehaviour {
-    public GameObject bean;
-    public GameObject lacis;
-    public GameObject tante;
-    public GameObject masina;
-    public GameObject paKreisi;
-    public GameObject paLabi;
+    public GameObject bean, lacis, tante, masina, paKreisi, paLabi, mainigaisAttels, sizeSlider;
+    public Sprite[] imageArray;
 
     public void BeanImage(bool vertiba)
     {
@@ -42,5 +38,16 @@ public class ShowImage : MonoBehaviour {
     public void PaLabiBean()
     {
         bean.transform.localScale = new Vector2(-1, 1);
+    }
+
+    public void drop(int index)
+    {
+        mainigaisAttels.GetComponent<Image>().sprite = imageArray[index];
+    }
+
+    public void changeSize()
+    {
+        float currSize = sizeSlider.GetComponent<Slider>().value;
+        mainigaisAttels.transform.localScale = new Vector2(1f * currSize, 1f * currSize);
     }
 }
