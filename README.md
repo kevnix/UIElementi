@@ -12,8 +12,8 @@ UI elementu demonstrēšana
 - [x] Toggle Group komponentes piesaiste
 - [x] Drop down elementa lietojums
 - [x] Slider elementa lietojums
-- [ ] Audio source objekta lietojums
-- [ ] Scroll view elementa lietojums
-- [ ] Drag and rop funkcionalitātes ieviešana
+- [x] Audio source objekta lietojums
+- [x] Scroll view elementa lietojums
+- [ ] Drag and drop funkcionalitātes ieviešana
 - [ ] Parslegshanas starp ainam
 - [ ] Projekta sagatavošana .exe un WebGL formātos

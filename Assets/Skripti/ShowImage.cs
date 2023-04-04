@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class ShowImage : MonoBehaviour {
-    public GameObject bean, lacis, tante, masina, paKreisi, paLabi, mainigaisAttels, sizeSlider;
+    public GameObject bean, lacis, tante, masina, paKreisi, paLabi, mainigaisAttels, sizeSlider, rotationSlider;
     public Sprite[] imageArray;
 
     public void BeanImage(bool vertiba)
@@ -50,4 +50,9 @@ public class ShowImage : MonoBehaviour {
         float currSize = sizeSlider.GetComponent<Slider>().value;
         mainigaisAttels.transform.localScale = new Vector2(1f * currSize, 1f * currSize);
     }
+
+	public void changeRotation(){
+		float curr = rotationSlider.GetComponent<Slider> ().value;
+		mainigaisAttels.transform.localRotation = Quaternion.Euler (0, 0, curr * 360);
+	}
 }
